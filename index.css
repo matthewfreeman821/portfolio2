@@ -1,0 +1,37 @@
+html {
+    background-color: rgb(219, 208, 184);
+}
+
+img {
+    max-width: 100%;
+    max-height: 50%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.first {
+    display: inline-block;
+    justify-content: center;
+}
+
+.img {
+    padding: 1.5rem;
+}
+
+.info {
+    padding: 1.5rem;
+    text-align: left;
+}
+
+.second {
+    display: inline-block;
+    justify-content: center;
+    flex-direction: row;
+    padding: 1.5rem;
+}
+
+.third {
+    padding: 1.5rem;
+}
