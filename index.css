@@ -1,24 +1,27 @@
-html {
+html, body{
     background-color: rgb(219, 208, 184);
+    margin: 0;
+    padding: 0;
 }
-/* Navbar Styling */
-.navContainer {
-    display: flex;
 
-}
 ul li {
     list-style: none;
 }
-img {
-    max-width: 100%;
-    max-height: 50%;
-}
+
 /* Links Section */
 
 .icons {
-    height: 75px;
-    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
+li img {
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+}
+
 
 h2 {
     text-align: center;
@@ -34,8 +37,9 @@ h2 {
     background-image: url("images/PortfolioPic.jpg");
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     height: 200px;
-    width: 200px;
+    margin: 0;
 }
 
 .aboutContent {
@@ -49,7 +53,111 @@ h2 {
     flex-direction: row;
     padding: 1.5rem;
 }
+.bestProjImg {
+    background-image: url("https://raw.githubusercontent.com/matthewfreeman821/shotracker/master/public/images/readme/S3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    height: 200px;
+    width: 350px;
+}
+.lastProjImg {
+    background-image: url("https://raw.githubusercontent.com/badamato/vacationproj/master/images/readme/S1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    height: 200px;
+    width: 350px;
+}
 
 .third {
     padding: 1.5rem;
+}
+
+/* Skills Section */
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skillsIcons {
+    height: 100px;
+    width: 100px;
+}
+.html {
+    background-image: url("images/html.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 120px;
+}
+.css {
+    background-image: url("images/css.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 110px;
+    width: 110px;
+}
+.javaScript {
+    background-image: url("images/javascript.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.jQuery {
+    background-image: url("images/JQuery.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.python {
+    background-image: url("images/python.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.node {
+    background-image: url("images/njs.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.express {
+    background-image: url("images/express.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.react {
+    background-image: url("images/react.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.redux {
+    background-image: url("images/redux.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sql {
+    background-image: url("images/sql.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.git {
+    background-image: url("images/github.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90px;
+    width: 90px;
+}
+
+/* Beginning Media Queries */
+@media screen and (min-width: 600px){
+    .skills {
+        flex-flow: row wrap;
+        justify-content: center;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .skillsIcons{
+        margin: 20px;
+    }
 }
