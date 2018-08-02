@@ -1,5 +1,5 @@
 html, body{
-    background-color: rgb(219, 208, 184);
+    background-color: rgb(38, 197, 197);
     margin: 0;
     padding: 0;
 }
@@ -9,6 +9,12 @@ ul li {
 }
 
 /* Links Section */
+
+.textAboutContent {
+    display: inline-block;
+    max-width: 50%;
+    min-width: 380px;
+}
 
 .icons {
     display: flex;
@@ -28,7 +34,7 @@ h2 {
 }
 
 .aboutSection{
-    display: inline-block;
+    display: flex;
     justify-content: center;
 }
 
@@ -38,7 +44,9 @@ h2 {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 200px;
+    height: 500px;
+    width: 50%;
+    min-width: 360px;
     margin: 0;
 }
 
